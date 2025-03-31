@@ -22,10 +22,28 @@ Resetor provides a user-friendly interface to manage your Cursor app identifiers
 
 ## 🚀 Installation
 
+### Quick Installation (Recommended)
+
+Install directly from the web with a single command:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/objval/resetor/main/install.sh | sudo bash
+```
+
+After installation, you can run the tool by simply typing:
+
+```bash
+resetor
+```
+
+Note: When running for the first time, you may need to use sudo: `sudo resetor`
+
+### Manual Installation
+
 1. Clone this repository:
    ```bash
-   git clone https://github.com/objval/cursor-reset-tool.git
-   cd cursor-reset-tool
+   git clone https://github.com/objval/resetor.git
+   cd resetor
    ```
 
 2. Make the script executable:
